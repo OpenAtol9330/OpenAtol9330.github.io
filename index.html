@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="web.ico">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>Best website</title>
+</head>
+
+<body>
+
+    <header>
+        <h1 id="title">Top 8 best images of Sommer Ray</h1>
+    </header>
+
+    <main>
+        <!--Images of Sommer Ray--> 
+        <img src="Sommer1.jpg" alt="sex" id="img">
+        <img src="Sommer2.jpg" alt="sex" id="img">
+        <img src="Sommer3.jpg" alt="sex" id="img">
+        <img src="Sommer4.jpg" alt="sex" id="img">
+        <img src="Sommer5.jpg" alt="sex" id="img">
+        <img src="Sommer6.jpg" alt="sex" id="img">
+        <img src="Sommer7.jpg" alt="sex" id="img">
+        <img src="Sommer8.jpg" alt="sex" id="img">
+    </main>
+
+    <div>
+        <br><h1>Top 9 drunk driving incidents of the year and their culprits</h1>
+        <!--Table with 9 drunk driving incidents and their culprits-->
+        <table id="thetable">
+            <tr>
+                <td>Ernest Sirins</td>
+                <td>James MacSweeney</td>
+                <td>Alex Hickey</td>
+                <td>How can anyone find that funny</td>
+                <td>For real this time</td>
+                <td>I only love Mahbed and my Momma</td>
+                <td>Faze Jarvis</td>
+                <td>Beetlejuice</td>
+                <td>Lezduit</td>
+            </tr>
+            <tr>
+                <td><img src="James.jpg" alt="Ernest" id="img"></td>
+                <td><img src="Hitler.jpg" alt="Jmac" id="img"></td>
+                <!--image from this cell redirects to hickey website-->
+                <td><a target="_blank" href="hickey.html"><img src="Alex.jpg" alt="Spastic" id="img"></a></td>
+                <td><img src="funny.png" alt="Funny" id="img"></td>
+                <td><img src="tyler.jpg" alt="Tyler" id="img"></td>
+                <td><img src="Drake.jpg" alt="Drake" id="img"></td>
+                <td><img src="Jarvis.jpg" alt="FazeJarv" id="img"></td>
+                <td><img src="beetlejuice.jpg" alt="Beetle" id="img"></td>
+                <td><img src="lezduit.png" alt="Lezduit" id="img"></td>
+            </tr>
+        </table>
+    </div>
+
+    <br><h1>Choose the Blark and Son character you want displayed</h1>
+    <!--buttons that display image of whoever you choose-->
+    <button type="button" onclick="blart()" id="BlarkSon1">Blark</button>
+    <button type="button" onclick="son()" id="BlarkSon2">Son</button>
+    <button type="button" onclick="fletch()" id="BlarkSon3">Fletch</button>
+    <button type="button" onclick="regina()" id="BlarkSon4">Regina</button>
+    <button type="button" onclick="stacy()" id="BlarkSon5">Stacy</button>
+    <button type="button" onclick="junior()" id="BlarkSon6">Junior</button>
+    <button type="button" onclick="zeke()" id="BlarkSon7">Zeke</button>
+    <button type="button" onclick="frankie()" id="BlarkSon8">Frankie</button><br>
+
+    <div id="Blark">
+        <!--Image that displays by default-->
+        <img id="BlarkSon0"src="Blarkandson.jpg">
+    </div>
+
+    <button type="button" onclick="blarkandson()" id="Blarkandson">Original image</button><br><br><br>
+
+    <div id="zoolander">
+        <h1>Look at the best image ever and change it's size</h1>    
+        Choose a size for the image: 
+        <!--Text area to type in the width of the image (height scales with it)-->
+        <input type="number" id="winsize">
+        <!--Button to change the image to the size-->
+        <button id="link1" type="button" onclick="size()">apply</button><br>
+        <img src="DerekZoolander.jpg" id="zoolander1"><br>
+                    
+    </div>
+
+    <br><div>
+        <h1>The Top Gear ciggy section</h1>
+        <!--Images of Top Gear lads with ciggies-->
+        <img src="jamesmay.jpg" id="cig">
+        <img src="richhammond.png" id="cig">
+        <img src="jerclarkson.jpg" id="cig"><br><br>
+    </div>
+
+    <h1>Postal knowledge test. Write all the answers in lowercase, no spaces!</h1>
+
+    <div id="test">
+        <!--Questions for postal quiz-->
+        <h5>Who do you play as in Postal 2?</h5>
+        <input type="text" id="maincharacter" class="question"><br>
+        <h5>Who is the voice actor for the character you play as?</h5>
+        <input type="text" id="voiceactor" class="question"><br>
+        <h5>How many days are there in Postal 2?</h5>
+        <input type="number" id="days" class="question"><br>
+        <h5>What do you need to retrieve from the Factory?</h5>
+        <input type="text" id="factory" class="question"><br>
+        <h5>On what day do you need to piss on your dads grave?</h5>
+        <input type="text" id="dadgrave" class="question"><br>
+        <h5>What weapon spawns in the shed in front of you on Monday?</h5>
+        <input type="text" id="weapon" class="question"><br>
+        <h5>What is the main character's wife's name?</h5>
+        <input type="text" id="wife" class="question"><br>
+        <h5>What's uncles name?</h5>
+        <input type="text" id="uncle" class="question"><br>
+        <h5>What item gives you 125 health?</h5>
+        <input type="text" id="health" class="question"><br>
+        <h5>How many official Postal games are there?</h5>
+        <input type="number" id="games" class="question"><br><br>
+        <!--Button that displays your score-->
+        <button id="checkanswers" type="button" onclick="answer()">Check how many questions you got correct</button><br>
+        <!--Your score-->
+        <h5 id="answer"></h5>
+        <!--Additional note depending on your score-->
+        <h5 id="subtext"></h5>
+    </div>
+
+   <div>
+        <br><h1>Crossout free packs</h1>
+        <table id="outcross">
+            <tr>
+                <td>Names of packs</td>
+                <td>Links to get pack</td>
+            </tr>
+            <tr>
+                <td>Morgenshtem</td>
+                <td id="cash"><a id="crossout" href="https://crossout.net/play4free?r=youblog_morgenshtern#/" target="_blank">https://crossout.net</a></td>
+            </tr>
+            <tr>
+                <td>Mamrok</td>
+                <td id="cash"><a id="crossout" href="https://crossout.net/play4free?r=youblog_mrmarmok#/" target="_blank">https://crossout.net</a></td>
+            </tr>
+            <tr>
+                <td>PewDiePie</td>
+                <td id="cash"><a id="crossout" href="https://crossout.net/play4free?r=utb_pewdiepie_v1#/" target="_blank">https://crossout.net</a></td>
+            </tr>
+            <tr>
+                <td>Shimoro</td>
+                <td id="cash"><a id="crossout" href="https://crossout.net/play?r=youblog_shimoro#/" target="_blank">https://crossout.net</a></td>
+            </tr>
+            <tr>
+                <td>Jelly</td>
+                <td id="cash"><a id="crossout" href="https://crossout.net/play4free?r=utb_jelly_v1#/" target="_blank">https://crossout.net</a></td>
+            </tr>
+            <tr>
+                <td>CYRILmp4</td>
+                <td id="cash"><a id="crossout" href="https://crossout.net/play4free?r=utb_cyril_v1#/" target="_blank">https://crossout.net</a></td>
+            </tr>
+            <tr>
+                <td>Life of Boris</td>
+                <td id="cash"><a id="crossout" href="https://crossout.net/play4free?r=utb_boris_v1#/" target="_blank">https://crossout.net</a></td>
+            </tr>
+            <tr>
+                <td>Bob Lennon</td>
+                <td id="cash"><a id="crossout" href="https://crossout.net/play4free?r=utb_bobl_v2#/" target="_blank">https://crossout.net</a></td>
+            </tr>
+            <tr>
+                <td>Slogo</td>
+                <td id="cash"><a id="crossout" href="https://crossout.net/play4free?r=utb_slogo_v1#/" target="_blank">https://crossout.net</a></td>
+            </tr>
+            <tr>
+                <td>Jamesify</td>
+                <td id="cash"><a id="crossout" href="https://crossout.net/play4free?r=utb_Jamesify_v1#/" target="_blank">https://crossout.net</a></td>
+            </tr>
+            <tr>
+                <td>WarpBeacon</td>
+                <td id="cash"><a id="crossout" href="https://crossout.net/play4free?r=youblog_warpbeacon#/" target="_blank">https://crossout.net</a></td>
+            </tr>
+            <tr>
+                <td>Crainer</td>
+                <td id="cash"><a id="crossout" href="https://crossout.net/play4free?r=utb_crainer_v1#/" target="_blank">https://crossout.net</a></td>
+            </tr>
+        </table>
+   </div> 
+
+    <footer>
+        <br><h4><p>Website created and powered by: OpenAtol9330</p><h4>
+    </footer>
+
+</body>
+
+</html>
